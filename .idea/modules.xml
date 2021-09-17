@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AtividadesJava.iml" filepath="$PROJECT_DIR$/.idea/AtividadesJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AtividadesLTP2/AtividadesLTP2.iml" filepath="$PROJECT_DIR$/AtividadesLTP2/AtividadesLTP2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Faculdade LTP I/Faculdade LTP I.iml" filepath="$PROJECT_DIR$/Faculdade LTP I/Faculdade LTP I.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaFabio/ListaFabio.iml" filepath="$PROJECT_DIR$/ListaFabio/ListaFabio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaFabio02/ListaFabio02.iml" filepath="$PROJECT_DIR$/ListaFabio02/ListaFabio02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MatVet3/MatVet3.iml" filepath="$PROJECT_DIR$/MatVet3/MatVet3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/curso_programacao/curso_programacao.iml" filepath="$PROJECT_DIR$/curso_programacao/curso_programacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estoque/estoque.iml" filepath="$PROJECT_DIR$/estoque/estoque.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista/lista.iml" filepath="$PROJECT_DIR$/lista/lista.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listaMatriz02/listaMatriz02.iml" filepath="$PROJECT_DIR$/listaMatriz02/listaMatriz02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listaRepetição/listaRepetição.iml" filepath="$PROJECT_DIR$/listaRepetição/listaRepetição.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listaRepetição02/listaRepetição02.iml" filepath="$PROJECT_DIR$/listaRepetição02/listaRepetição02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listaVetor2/listaVetor2.iml" filepath="$PROJECT_DIR$/listaVetor2/listaVetor2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matrizVetor/matrizVetor.iml" filepath="$PROJECT_DIR$/matrizVetor/matrizVetor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orientadaObjeto/orientadaObjeto.iml" filepath="$PROJECT_DIR$/orientadaObjeto/orientadaObjeto.iml" />
+    </modules>
+  </component>
+</project>
