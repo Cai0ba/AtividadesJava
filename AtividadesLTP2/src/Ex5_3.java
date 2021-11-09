@@ -8,39 +8,41 @@ public class Ex5_3 {
         String horaIni;
         String horaFim;
         do {
-            System.out.print("Digite a hora de início ou FIM para encerrar:");
+            System.out.println("Digite a hora de início ou FIM para encerrar:");
             horaIni = ler.next();
-
-        } while (!horaehValida(horaIni));
-
-        do {
+            if (horaIni.equalsIgnoreCase("fim")) {
+                break;
+            }
+            horaehValida(horaIni);
             System.out.print("Digite a hora de fim:");
             horaFim = ler.next();
-        } while (!horaehValida(horaFim));
-        int horaI = Integer.parseInt(horaIni.substring(0, 2));
-        int minI = Integer.parseInt(horaIni.substring(3, 5));
+            horaehValida(horaFim);
+            int horaI = Integer.parseInt(horaIni.substring(0, 2));
+            int minI = Integer.parseInt(horaIni.substring(3, 5));
 
-        int horaF = Integer.parseInt(horaFim.substring(0, 2));
-        int minF = Integer.parseInt(horaFim.substring(3, 5));
+            int horaF = Integer.parseInt(horaFim.substring(0, 2));
+            int minF = Integer.parseInt(horaFim.substring(3, 5));
 
-        float duracao = (horaF - horaI) * 60 + minF - minI;
-        float valorChamada;
-        if (horaI >= 0 && minI >= 0 && horaF < 5 && minF < 59) {
-            valorChamada = (float) (duracao * 0.10);
-            System.out.printf("O valor da chamada foi de %.2fR$",valorChamada);
-        } else if (horaI >= 6 && minI >= 0 && horaF <= 7 && minF <= 59) {
-            valorChamada = (float) (duracao * 0.15);
-            System.out.printf("O valor da chamada foi de %.2fR$",valorChamada);
-        } else if (horaI >= 8 && minI >= 0 && horaF <=17 && minF <= 59) {
-            valorChamada = (float) (duracao * 0.20);
-            System.out.printf("O valor da chamada foi de %.2fR$",valorChamada);
-        } else if (horaI >= 18 && minI >= 0 && horaF <=23 && minF <=59) {
-            valorChamada = (float) (duracao * 0.15);
-            System.out.printf("O valor da chamada foi de %.2fR$",valorChamada);
-        }
+            float duracao = (horaF - horaI) * 60 + minF - minI;
+            float valorChamada;
+            if (horaI >= 0 && minI >= 0 && horaF < 5 && minF < 59) {
+                valorChamada = (float) (duracao * 0.10);
+                System.out.printf("O valor da chamada foi de %.2fR$\n", valorChamada);
+            } else if (horaI >= 6 && minI >= 0 && horaF <= 7 && minF <= 59) {
+                valorChamada = (float) (duracao * 0.15);
+                System.out.printf("O valor da chamada foi de %.2fR$\n", valorChamada);
+            } else if (horaI >= 8 && minI >= 0 && horaF <= 17 && minF <= 59) {
+                valorChamada = (float) (duracao * 0.20);
+                System.out.printf("O valor da chamada foi de %.2fR$\n", valorChamada);
+            } else if (horaI >= 18 && minI >= 0 && horaF <= 23 && minF <= 59) {
+                valorChamada = (float) (duracao * 0.15);
+                System.out.printf("O valor da chamada foi de %.2fR$\n", valorChamada);
+            }
+        } while (true);
 
     }
-//TODO Colocar uma flag pra encerrar a entrada de dados;
+
+    //TODO Colocar uma flag pra encerrar a entrada de dados;
     public static boolean horaehValida(String Hora) {
         int hora;
         int min;
