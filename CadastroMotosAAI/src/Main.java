@@ -1,10 +1,13 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
+    static String[] vetmarca = {"YAMAHA", "HONDA", "SUZUKI", "KAWASAKI", "DUCATI", "HARLEY-DAVIDSON", "BMW", "KTM", "TRIUMPH","BUELL" };
+    static String[] vetorigem = {"JAPÃO", "JAPÃO", "JAPÃO", "JAPÃO", "ITALIA", "EUA", "ALEMANHA", "AUSTRIA", "INGLATERRA", "EUA" };
+
     static Scanner leia = new Scanner(System.in);
 
     public static void main(String[] args) {
-        CadastroMotos motos = new CadastroMotos();
+        Motos motos = new Motos();
         byte opcao;
 
         do {
@@ -30,7 +33,7 @@ public class Main {
                 case 4 -> motos.excluir();
             }
         } while ( opcao != 0 );
-        //leia.close();
+        leia.close();
     }
 
 }
